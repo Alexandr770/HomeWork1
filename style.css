@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+ * {
+   padding: 0;
+   margin: 0;
+  }
+
+  body {
+   font-family: 'Montserrat', sans-serif;
+  }
+
+  .centr {
+    padding-left: calc(50% - 840px);
+    padding-right: calc(50% - 840px);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  
+  .top {
+    height: 1024px;
+    padding-top: 217px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/IndexGame.jpg)
+  }
+
+
+  .top__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 120px;
+  } 
+  
+  .top__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    padding-left: 120px;
+  }
+
+  .button {
+    width: 234px;
+    height: 48px;
+    left: 120px;
+    top: 482px;
+    background: #9C0332;
+    border-radius: 30px;
+    margin-top: 44px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+    text-decoration: none;
+   
+  }
+
+  .good__game {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 128px 120px;
+    background-color: #000915;
+    box-sizing: border-box;
+    
+  }
+ 
+  .game {
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    width: 378px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+
+  .games1 {
+    background-image: url(img/Game1.jpg);
+
+  }
+
+  .games2 {
+    background-image: url(img/Game2.jpg); 
+  }
+
+  .games3 {
+    background-image: url(img/Game3.jpg); 
+
+  }
+  
+  
+
+ 
