@@ -10,8 +10,8 @@
   }
 
   .centr {
-    padding-left: calc(50% - 840px);
-    padding-right: calc(50% - 840px);
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
   }
   
   a {
@@ -53,8 +53,6 @@
   .button {
     width: 234px;
     height: 48px;
-    left: 120px;
-    top: 482px;
     background: #9C0332;
     border-radius: 30px;
     margin-top: 44px;
