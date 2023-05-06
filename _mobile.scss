@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+
+    .top {
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            background-image: url(img/MobGame.jpg);
+        }
+    }
+
+    .top {
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            vertical-align: middle;
+            text-align: center;
+            width: 100%;
+            margin-top: 32px;
+        }
+
+    }
+
+    .button {
+        margin-left: 50px;
+        margin-top: 32px;
+    }
+
+}
