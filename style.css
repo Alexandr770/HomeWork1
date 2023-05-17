@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.top centr {
+.top center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
@@ -83,6 +83,9 @@ a {
   box-sizing: border-box;
   padding-bottom: 128px;
   padding-top: 128px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
 }
 
 .game {
@@ -99,15 +102,15 @@ a {
 }
 
 .games1 {
-  background-image: url(img/Game1.jpg);
+  background-image: url(img/Game1.png);
 }
 
 .games2 {
-  background-image: url(img/Game2.jpg);
+  background-image: url(img/Game2.png);
 }
 
 .games3 {
-  background-image: url(img/Game3.jpg);
+  background-image: url(img/Game3.png);
 }
 
 @media (max-width: 767px) {
@@ -121,6 +124,7 @@ a {
     font-size: 32px;
     line-height: 39px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #FFFFFF;

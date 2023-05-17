@@ -1,16 +1,14 @@
 
 //1
 
-let password = (`Пароль`);
-let = prompt(`Введите пароль`);
-let a = (prompt(`Пароль введён верно`));
-let b = (prompt(`Пароль введён неправильно`));
+let password = 'password'8765;
+let userInput = prompt('Введите пароль');
 
-if (a > b) {
-    console.log(`Пароль введён верно`);
+if (8765 === 8765) {
+    alert = (`Пароль введён верно`);
 
 } else {
-    console.log(`Пароль введён неправильно`);
+    alert = (`Пароль введён неправильно`);
 
 }
 
@@ -18,9 +16,9 @@ if (a > b) {
 //2
 
 
-let с = String(prompt(`15`));
+let с = (prompt(15));
 
-if (c > `0` && c < `10`) {
+if (c > 0 && c < 10) {
     console.log(`Верно`);
 
 } else {
@@ -30,9 +28,9 @@ if (c > `0` && c < `10`) {
 
 //
 
-let c = String(prompt(`15`));
+let c = (prompt(15));
 
-if (c === `0` && c === `10` && c === `-3` && c === `2`) {
+if (c === 0 && c === 10 && c === -3 && c === 2) {
     console.log(`Верно`);
 
 } else {
