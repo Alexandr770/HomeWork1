@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.center {
+.top center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
@@ -113,33 +113,4 @@ a {
   background-image: url(img/Game3.png);
 }
 
-@media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .top__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    background-image: url(img/MobGame.jpg);
-  }
-  .top__text {
-    font-size: 14px;
-    line-height: 22px;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
-    margin-top: 32px;
-  }
-  .button {
-    margin-left: 50px;
-    margin-top: 32px;
-  }
-}/*# sourceMappingURL=style.css.map */
+@import 'mobile';
